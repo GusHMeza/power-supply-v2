@@ -80,7 +80,7 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -266,32 +266,32 @@ DocumentPath=Project Outputs\PowerSupply_REV1A_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Parameter1]
-Name=PCB_CHECKER
-Value=- -----
+Name=SCH_REV
+Value=A
 
 [Parameter2]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
+Name=PCB_REV
+Value=A
 
 [Parameter3]
-Name=PCB_DESIGNER
-Value=Gustavo H. Meza
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
 
 [Parameter4]
 Name=PCB_DWG_NO
 Value=<PCB DWG NO>
 
 [Parameter5]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
+Name=PCB_DESIGNER
+Value=Gustavo H. Meza
 
 [Parameter6]
-Name=PCB_REV
-Value=A
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
 
 [Parameter7]
-Name=SCH_REV
-Value=A
+Name=PCB_CHECKER
+Value=- -----
 
 [Configuration1]
 Name=Default Configuration
@@ -1523,10 +1523,8 @@ SortLocation=0
 ReplaceSubparts=0
 MatchParameter1=Capacitance
 MatchStrictly1=1
-MatchParameter2=Parameter 1
+MatchParameter2=Resistance
 MatchStrictly2=1
-MatchParameter3=Resistance
-MatchStrictly3=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
