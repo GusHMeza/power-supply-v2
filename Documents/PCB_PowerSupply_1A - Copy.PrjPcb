@@ -266,32 +266,32 @@ DocumentPath=Project Outputs\PowerSupply_REV1A_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_REV
-Value=A
+Name=PCB_CHECKER
+Value=- -----
 
 [Parameter2]
-Name=PCB_REV
-Value=A
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
 
 [Parameter3]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
+Name=PCB_DESIGNER
+Value=Gustavo H. Meza
 
 [Parameter4]
 Name=PCB_DWG_NO
 Value=<PCB DWG NO>
 
 [Parameter5]
-Name=PCB_DESIGNER
-Value=Gustavo H. Meza
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
 
 [Parameter6]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
+Name=PCB_REV
+Value=A
 
 [Parameter7]
-Name=PCB_CHECKER
-Value=- -----
+Name=SCH_REV
+Value=A
 
 [Configuration1]
 Name=Default Configuration
@@ -1269,6 +1269,12 @@ Type127=1
 Type128=1
 Type129=1
 Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
 
 [Difference Levels]
 Type1=1
@@ -1466,6 +1472,7 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
